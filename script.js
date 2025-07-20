@@ -25,13 +25,20 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   });
 
-  // Add placeholder functionality for download buttons
-  const downloadButtons = document.querySelectorAll('.download-button');
-  downloadButtons.forEach(button => {
-      button.addEventListener('click', function() {
-          // In a real application, you would trigger a download here
-          // For now, we'll just show an alert
-          alert('تابع دانلود برای این بازی در حال پیاده‌سازی است!');
-      });
-  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 });

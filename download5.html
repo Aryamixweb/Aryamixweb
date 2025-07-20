@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resident Evil 4 Remake</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212; /* تم تیره */
+            color: #e0e0e0; /* رنگ متن روشن */
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #1e1e1e; /* پس‌زمینه تیره‌تر برای محتوا */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgb(255, 251, 0); /* هاله‌ی نور مدرن */
+        }
+        .hero-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            position: relative; /* برای قرار دادن متن روی تصویر */
+            box-shadow: 0 5px 15px rgba(255, 251, 0); /* سایه روشن برای تصویر */
+        }
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #ffffff; /* رنگ سفید برای متن */
+            text-shadow: 0 0 15px rgba(255, 251, 0), /* هاله‌ی نور */
+                         0 0 5px rgba(255, 251, 0); /* سایه داخلی */
+            font-size: 3em; /* فونت بزرگ */
+            font-weight: bold;
+            letter-spacing: 2px; /* فاصله بین حروف */
+        }
+        h1, h2, h3 {
+            color: #c6d400; /* رنگ مدرن و شیک */
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-top: 0;
+        }
+        h2 {
+            font-size: 2em;
+        }
+        h3 {
+            font-size: 1.5em;
+            margin-top: 30px;
+            border-bottom: 2px solid #bfd400;
+            padding-bottom: 5px;
+        }
+        p {
+            color: #b0b0b0; /* رنگ متن کمی تیره‌تر */
+            text-align: justify; /* تراز بندی متن */
+        }
+        .requirements {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+            border: 1px dashed #e0e400; /* خط جداکننده مدرن */
+        }
+        .requirements ul {
+            list-style: none;
+            padding: 0;
+        }
+        .requirements li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .requirements li::before {
+            content: "\\2714"; /* تیک چک مارک */
+            color: #00ff00; /* رنگ سبز برای تیک */
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: center;
+            border: 1px solid #333; /* خطوط تیره برای جدول */
+        }
+        th {
+            background-color: #f5e501; /* رنگ هدر جدول */
+            color: #121212; /* رنگ متن هدر */
+            font-weight: bold;
+        }
+        td {
+            background-color: #1e1e1e; /* پس‌زمینه سلول‌های جدول */
+            color: #e0e0e0;
+        }
+        .download-link {
+            color: #00ff00; /* رنگ سبز برای لینک دانلود */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .download-link:hover {
+            text-decoration: underline;
+        }
+        .icon {
+            font-size: 1.2em;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+        /* افکت‌های اضافه */
+        @keyframes glowing {
+            0% { box-shadow: 0 0 5px rgba(255, 251, 0), 0 0 20px rgba(238, 234, 0, 0.699); }
+            50% { box-shadow: 0 0 10px rgba(255, 251, 0), 0 0 30px rgba(238, 234, 0, 0.699); }
+            100% { box-shadow: 0 0 5px rgba(255, 251, 0), 0 0 20px rgba(238, 234, 0, 0.699); }
+        }
+        .container {
+            animation: glowing 5s infinite;
+        }
+    </style>
+    <!-- برای استفاده از آیکون‌ها (اگر دسترسی به Font Awesome ممکن باشد) -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+</head>
+<body>
+    <div class="container">
+        <div style="position: relative;">
+            <img src="game5.jpg" alt="Resident Evil 4 Remake Cover" class="hero-image">
+            <!-- متن روی عکس -->
+        </div>
+
+        <h1>Resident Evil 4 Remake: تجربه نهایی ترس و بقا</h1>
+
+        <p>
+            Resident Evil 4 Remake بازسازی استادانه‌ی عنوانی است که ژانر ترس و بقا را متحول کرد. در این بازی، شما در نقش لیان اس. کندی، مامور ویژه‌ای که برای نجات دختر رئیس جمهور ربوده شده، اشلی گراهام، به روستایی دورافتاده در اسپانیا فرستاده شده‌اید. اما آنچه در انتظار لیان است، تنها یک ماموریت نجات ساده نیست؛ بلکه مواجهه با کابوسی است که از موجودات جهش‌یافته و فرقه مرموز لوس ایلامینوس (Los Illuminados) شکل گرفته است. این بازسازی با گرافیک خیره‌کننده، گیم‌پلی مدرن و داستانی وفادار به اصل، تجربه‌ای تازه و هیجان‌انگیز را برای طرفداران قدیمی و تازه‌کار به ارمغان می‌آورد. از محیط‌های ترسناک و پر از تعلیق گرفته تا نبردهای نفس‌گیر با دشمنان سرسخت، Resident Evil 4 Remake شما را تا انتها میخکوب خواهد کرد.
+        </p>
+
+        <h3>سیستم مورد نیاز پیشنهادی:</h3>
+        <div class="requirements">
+        <ul>
+                <li><span class="icon">🎮</span> <strong>سیستم عامل:</strong> Windows 10 (64-bit)</li>
+                <li><span class="icon">⚙️</span> <strong>پردازنده (CPU):</strong> AMD Ryzen 5 3600 / Intel Core i7 8700</li>
+                <li><span class="icon">🚀</span> <strong>کارت گرافیک (GPU):</strong> AMD Radeon RX 5700 XT / NVIDIA GeForce RTX 2070</li>
+                <li><span class="icon">💾</span> <strong>حافظه رم (RAM):</strong> 16 GB</li>
+                <li><span class="icon">💽</span> <strong>فضای ذخیره‌سازی:</strong> 60 GB SSD</li>
+                <li><span class="icon">🔊</span> <strong>DirectX:</strong> Version 12</li>
+            </ul>
+        </div>
+
+        <h3>اطلاعات دانلود:</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>عنوان بازی</th>
+                    <th>حجم</th>
+                    <th>فرمت</th>
+                    <th>لینک دانلود</th>
+                    <th>رمز فایل</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Resident Evil 4 Remake Deluxe Edition - EMPRESS</td>
+                    <td>58.6 گیگابایت</td>
+                    <td>Rar</td>
+                    <td>
+                        <!-- لطفاً YOUR_DOWNLOAD_LINK را با لینک واقعی جایگزین کنید -->
+                        <a href="https://dl4.redfull.ir/game/Resident.E.4-rem/EMPRESS/" class="download-link" target="_blank">
+                            دانلود
+                        </a>
+                    </td>
+                    <td>aryamix.io</td>
+
+                </tr>
+            </tbody>
+        </table>
+        <p style="text-align:center; font-size:0.9em; color:#888; margin-top:15px;">
+        </p>
+    </div>
+</body>
+</html>
